@@ -1,0 +1,132 @@
+
+#status{
+	position:fixed;
+	position:relative;
+	border-style:outset;
+  	background: #bfa7a7;
+  	text-align:right;
+  	padding: 20px;
+  	font-family:sans-serif;
+  	border-radius:10px;
+   	font-size: 27px;
+   	color: #fff;
+}
+#quefield{
+	
+  //background: #79e7f8;
+  margin: 10px auto;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	padding:10px;
+  float:none;
+  font-family:sans-serif;
+}
+#q1{
+	display:block;
+	margin:10px;
+	padding:30px;
+	font-size:large;
+	font-style: normal;
+	border-style: dotted;    
+	border-width: 2px;    
+	border-color: #c6f8e6; 
+}
+#o1,#o3{
+	float:left;
+	width:44%;
+	display:block;
+	margin:10px;
+	padding:10px;
+	font-size:large;
+	font-style: normal;
+	border-style: dotted;    
+	border-width: 2px;    
+	border-color: #c6f8e6;   
+}
+#o2,#o4{
+	float:right;
+	width:44%;
+	display:block;
+	margin:10px;
+	padding:10px;
+	font-size:large;
+	font-style: normal;
+	border-style: dotted;    
+	border-width: 2px;    
+	border-color: #c6f8e6;   
+}
+fieldset {
+	border-radius: 10px;
+	padding: 40px;
+	margin:10px;
+	border-style:outset;    
+	border-width: 5px;    
+	border-color: #c6f8e6;   
+	background-color: #ffffff;  
+}
+#bsub{
+  display: block;
+  background: #1abc9d;
+  width: 333px;
+  padding: 14px;
+  cursor: pointer;
+  color: #fff;
+  border: 0px;
+  margin: auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover{
+  background: #09cca6
+}
+
+
+::-webkit-input-placeholder {
+   color: gray;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: gray;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: gray;  
+}
+
+:-ms-input-placeholder {  
+   color: gray;  
+}
+
+
+
+
+
+legend{
+	border-radius: 10px;
+	display: block;
+  background: #c8aeae;
+	color: #fff;
+	font-size: large;
+}
+h1,h2{
+  color: #fff;	
+  font-size:xx-large;
+  text-align: center;
+  font-family: Arial;
+}
+#result{
+	width: 400px;
+  height: 220px;
+  background: #aceef1;
+  margin: 150px auto;
+  padding-top: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	
+}

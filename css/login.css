@@ -1,0 +1,84 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+p{
+	text-align: center;
+	font-family: Arial;
+	color: #c4f;
+}
+h1,h2{
+  color: #fff;	
+  text-align: center;
+  font-family: Arial;
+  font-weight: normal;
+}
+
+.loginform{
+  width: 400px;
+  height: 420px;
+  background: #aceef1;
+  margin: 150px auto;
+  padding-top: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+select,input[type="text"],input[type="password"]{
+  display: block;
+  width: 320px;
+  height: 35px;
+  margin: 25px auto;
+  background: #fff;
+  border: 0px;
+  padding: 5px;
+  font-size: 16px;
+   border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+input[type="password"]:focus,input[type="text"]:focus{
+  border: 2px solid #1abc9d
+}
+
+input[type="submit"]{
+  display: block;
+  background: #1abc9d;
+  width: 333px;
+  padding: 14px;
+  cursor: pointer;
+  color: #fff;
+  border: 0px;
+  margin: auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover{
+  background: #09cca6
+}
+
+
+::-webkit-input-placeholder {
+   color: gray;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: gray;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: gray;  
+}
+
+:-ms-input-placeholder {  
+   color: gray;  
+}
+
